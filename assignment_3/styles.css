@@ -1,12 +1,24 @@
 .cv_header {
     position:fixed;
-    top: 0;
+    top: 0px;
+    bottom: 0px;
     width: 100%;
+    height: 70px;
+    /*padding: 0px 20px;*/
+    background-color: lightblue;
+    color: black;
+    overflow: hidden;
+}
+
+.spacer
+{
+    width: 100%;
+    height: 70px;
 }
 
 .cv_top_left {
     float: left;
-    clear: both;
+    /*clear: both;*/
 }
 
 .cv_top_right {
@@ -22,24 +34,96 @@
 
 .text_contact {
     margin: 0px 10px;
+    text-decoration: none;
 }
 
 .fullname {
     font-size: 30px;
+    margin: 0px 10px;
 }
 
-.jobtitle {
+.cvposition {
     font-size: 20px;
+    margin: 0px 10px;    
 }
 
 .cv_intro {
-    margin: 10px 0px;
-    position: absolute;
-    top: 75px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
 }
 
-.cv_sections {
-    margin: 10px 0px;
-    position: absolute;
-    top: 605px;
+.cv_section {
+    width: 100%;
+}
+
+.section_title {
+    color: black;
+    font-size: 25px;
+    font: bold;
+    padding: 10px;
+    border-bottom: black solid 1px;    
+}
+
+.period {
+    padding-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 250px; 
+    vertical-align: top; 
+    font-size: 20px;
+}
+
+.period_small {
+    padding-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 250px; 
+    vertical-align: top; 
+    font-size: 18px;
+    clear: both;
+}
+
+.period_full {
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%; 
+    vertical-align: top; 
+    font-size: 18px;
+    clear: both;
+}
+
+.companyname {
+    padding-right: 10px;
+    margin: 10px 10px 0px 10px;    
+    display: inline-block;
+    font-size: 20px;
+    font: bold;
+}
+
+.main_title {
+    padding-right: 10px;
+    margin: 10px 10px 0px 10px;    
+    display: inline-block; 
+    vertical-align: top;
+    font-size: 18px;
+    word-break: break-all; 
+    word-wrap: break-word;
+}
+
+.secondary_title {
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.title_info {
+    font-size: 15px;
+    margin-left: -20px;
+    margin-top: 5px;
+}
+
+.cv_section_end {
+    margin: 0px 10px;    
+    margin-top: 605px;
 }
